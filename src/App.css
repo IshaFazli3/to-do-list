@@ -89,9 +89,17 @@ h1 {
 .delete-icon {
   cursor: pointer;
 }
- @media (max-width: 700px) {
-  body {
-    width: 450px;
+ @media (max-width: 600px) {
+  .App {
+    width: 330px;
     margin: 0 auto;
+  }
+  .todo-input {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .todo-btn {
+    margin-top: 10px;
+    font-size: 10px;
   }
  }
