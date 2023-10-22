@@ -89,4 +89,9 @@ h1 {
 .delete-icon {
   cursor: pointer;
 }
- 
+ @media (max-width: 700px) {
+  body {
+    width: 450px;
+    margin: 0 auto;
+  }
+ }
